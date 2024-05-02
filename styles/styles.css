@@ -33,12 +33,13 @@ aside{
     padding: 10px;
     background-color: blueviolet;
     color: beige;
-
-    img {
-        width: 200px;
-        height: auto;
-    }
 }
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
 
 footer {
     margin-top: 200px;
