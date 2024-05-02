@@ -8,20 +8,21 @@ nav a {
     padding: 20px;
 }
 main{
-h1 {
-    color: steelblue;
-}
+    h1 {
+        color: steelblue;
+    }
 
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    img {
+        width: 150px;
+        height: auto;
+        border: 1px solid steelblue;
+        padding: 2px;
+        box-shadow: 0 0 30px gray;
+    }
+    p {
+        padding: 0px;
+    }
 }
-p {
-    padding: 0px;
-}}
 aside{
     width: 300px;
     margin: 10px;
@@ -30,10 +31,11 @@ aside{
     background-color: blueviolet;
     color: beige;
 
-img {
-    width: 200px;
-    height: auto;
-}}
+    img {
+        width: 200px;
+        height: auto;
+    }
+}
 footer {
     margin-top: 200px;
     border-top: 2px;
