@@ -7,18 +7,18 @@ body {
 }
 
 :root {
-    --primary-color: #B7D3F2;
-    --secondary-color: #8A84E2;
+    --primary-color:#B7D3F2;
+    --secondary-color:#8A84E2;
     --accent1-color:#AFAFDC;
-    --accent2-color: #79BEEE;
+    --accent2-color:#79BEEE;
     
-    --heading-font:'Jaro', serif;
-    --paragraph-font: 'Oswald', serif;
+    --heading-font:'Jaro',serif;
+    --paragraph-font:'Oswald',serif;
 
     --nav-backgound-color:#8A84E2;
-    --nav-link-color: #e63946;
-    --nav-hover-link-color: #AFAFDC;
-    --nav-hover-background-color: #8A84E2;
+    --nav-link-color:#e63946;
+    --nav-hover-link-color:#AFAFDC;
+    --nav-hover-background-color:#8A84E2;
 
 }
 
