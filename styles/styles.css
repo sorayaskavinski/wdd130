@@ -7,7 +7,9 @@ nav a {
     display: block;
     padding: 20px;
 }
-
+main{
+    max-width: 840px;
+}
 h1 {
     color: steelblue;
 }
@@ -27,19 +29,20 @@ p {
 aside{
     width: 350px;
     margin: 10px;
-    border: 3px solid;
+    border: 3px solid white;
     padding: 10px;
     background-color: blueviolet;
     color: beige;
+    text-align: center;
 }
-img {
+aside img {
     width: 200px;
     height: auto;
-}   
+    }   
 
 
 footer {
     margin-top: 200px;
-    border-top: 2px;
+    border-top: 2px solid black;
     text-align: center;
 }
