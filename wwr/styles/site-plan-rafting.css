@@ -6,7 +6,7 @@ body {
   padding: 20px;
 }
 
-:root{
+:root {
   --primary-color: #8A84E2;
   --secondary-color: #B7D3F2;
   --accent1-color: #AFAFDC;
@@ -15,16 +15,10 @@ body {
   --heading-font: 'Jaro', serif;
   --paragraph-font: 'Oswald', serif;
 
-  --nav-backgound-color: var(--secondary-color);
+  --nav-background-color: var(--secondary-color); /* Corrected spelling */
   --nav-link-color: #e63946;
   --nav-hover-link-color: var(--accent1-color);
   --nav-hover-background-color: var(--secondary-color);
-}
-
-body {
-  font-family: var(--paragraph-font);
-  max-width: 960px;
-  padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   padding: 20px;
-  background-color: var(--secondary-color);
+  background-color: var(--accent1-color);
 }
 
 p {
@@ -42,7 +36,7 @@ p {
 }
 
 nav {
-  background-color: var(--nav-backgound-color);
+  background-color: var(--nav-background-color); /* Corrected variable name */
   font-size: 1.2rem;
   display: flex;
 }
