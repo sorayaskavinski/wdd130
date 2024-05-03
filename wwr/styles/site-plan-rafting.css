@@ -7,18 +7,18 @@ body {
 }
 
 :root {
-    --primary-color:#B7D3F2;
-    --secondary-color:#8A84E2;
-    --accent1-color:#AFAFDC;
-    --accent2-color:#79BEEE;
+    --primary-color:#B7D3F2 = var(--primary-color);
+    --secondary-color:#8A84E2 = var(--secondary-color);
+    --accent1-color:#AFAFDC = var(--accent1-color);
+    --accent2-color:#79BEEE = var(--accent2-color);
     
-    --heading-font:'Jaro',serif;
-    --paragraph-font:'Oswald',serif;
+    --heading-font:'Jaro',serif, var(--heading-font);
+    --paragraph-font:'Oswald',serif, var(--paragraph-font);
 
-    --nav-backgound-color:#8A84E2;
-    --nav-link-color:#e63946;
-    --nav-hover-link-color:#AFAFDC;
-    --nav-hover-background-color:#8A84E2;
+    --nav-backgound-color: var(--secondary-color);
+    --nav-link-color:#e63946, var(--nav-link-color);
+    --nav-hover-link-color: var(--accent1-color);
+    --nav-hover-background-color:var(--secondary-color);
 
 }
 
