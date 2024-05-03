@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=font-Jaro&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Oswald:wght@200..700&display=swap');
 
 body {
     font-family: var(--paragraph-font);
@@ -61,6 +61,6 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: var(--nav-hover-link-color)
+    color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
