@@ -1,24 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=font-Jaro&family=optional-2nd-font-Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=font-Jaro&family=Oswald&display=swap');
+
+:root{
+    --primary-color: #B7D3F2;
+    --secondary-color: #8A84E2;
+    --accent1-color:#AFAFDC;
+    --accent2-color: #79BEEE;
+    
+    --heading-font:'Jaro', serif;
+    --paragraph-font: 'Oswald', serif;
+
+    --nav-backgound-color:#8A84E2;
+    --nav-link-color: #e63946;
+    --nav-hover-link-color: #AFAFDC;
+    --nav-hover-background-color: #8A84E2;
+
+}
 
 body{
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-}
-:root{
-    --primary-color: #023E8A;
-    --secondary-color: #ffffff;
-    --accent1-color:#CAF0F8;
-    --accent2-color: #E63946;
-    
-    --heading-font:'Jaro', serif;
-    --paragraph-font: 'Oswald', serif;
-
-    --nav-backgound-color:#CAF0F8;
-    --nav-link-color: #e63946;
-    --nav-hover-link-color: #023E8A;
-    --nav-hover-background-color: #CAF0F8;
-
 }
 
 body{
@@ -54,7 +55,8 @@ nav a{
     padding: 1rem;
 }
 
-nav a:link, nav a:visited{
+nav a:link,
+nav a:visited{
     color: var(--nav-link-color);
 }
 
