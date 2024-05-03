@@ -6,20 +6,19 @@ body {
     padding: 20px;
 }
 
-:root {
-    --primary-color:#B7D3F2 = var(--primary-color);
-    --secondary-color:#8A84E2 = var(--secondary-color);
-    --accent1-color:#AFAFDC = var(--accent1-color);
-    --accent2-color:#79BEEE = var(--accent2-color);
+:root{
+  --primary-color: #8A84E2;
+  --secondary-color: #B7D3F2;
+  --accent1-color: #AFAFDC;
+  --accent2-color: #79BEEE;
     
-    --heading-font:'Jaro',serif, var(--heading-font);
-    --paragraph-font:'Oswald',serif, var(--paragraph-font);
+  --heading-font: 'Jaro', serif;
+  --paragraph-font: 'Oswald', serif;
 
-    --nav-backgound-color: var(--secondary-color);
-    --nav-link-color:#e63946, var(--nav-link-color);
-    --nav-hover-link-color: var(--accent1-color);
-    --nav-hover-background-color:var(--secondary-color);
-
+  --nav-backgound-color: var(--secondary-color);
+  --nav-link-color: #e63946;
+  --nav-hover-link-color: var(--accent1-color);
+  --nav-hover-background-color: var(--secondary-color);
 }
 
 body {
@@ -35,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
 }
 
 p {
