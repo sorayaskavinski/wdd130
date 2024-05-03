@@ -7,16 +7,16 @@ body {
 }
 
 :root {
-  --primary-color: #8A84E2;
-  --secondary-color: #B7D3F2;
-  --accent1-color: #AFAFDC;
-  --accent2-color: #79BEEE;
+  --primary-color: #023E8A;
+  --secondary-color:#FFFFFF;
+  --accent1-color: #caf0f8;
+  --accent2-color: #E63946;
     
   --heading-font: 'Jaro', serif;
   --paragraph-font: 'Oswald', serif;
 
-  --nav-background-color: var(--secondary-color); /* Corrected spelling */
-  --nav-link-color: #e63946;
+  --nav-background-color: var(--accent1-color); /* Corrected spelling */
+  --nav-link-color: #E63946;
   --nav-hover-link-color: var(--accent1-color);
   --nav-hover-background-color: var(--secondary-color);
 }
