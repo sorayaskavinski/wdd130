@@ -5,6 +5,8 @@ body {
     max-width: 960px;
     padding: 20px;
   }
+
+
   
   :root {
     --primary-color: #023E8A;
@@ -19,6 +21,12 @@ body {
     --nav-link-color: #E63946;
     --nav-hover-link-color: var(--accent1-color);
     --nav-hover-background-color: var(--secondary-color);
+  }
+  
+  .hero img{
+    display:block;
+    width: 100%;
+    height: auto;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -57,4 +65,5 @@ body {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
   }
+
   
