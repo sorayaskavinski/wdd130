@@ -91,22 +91,26 @@ nav a:hover {
 .hero h1 {
     position: absolute;
     color: darkblue;
-    font-size: 3em;
+    font-size: 50px;
     padding: 10px 20px;
     border-radius: 10px;
-    top: 1px;;
+    top: 0;
+    float: center;
  
 }
-
+.hero article h6{
+    font-size: 12px;
+    line-height: 0;
+}
 .hero article {
     position: absolute;
-    bottom: 0px;
+    bottom: 30px;
     width: calc(100% - 40px);
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     background: rgba(255, 255, 255, 0.7);
-    padding: 0;
+    padding: 10px;
     border-radius: 10px;
 }
 
@@ -137,6 +141,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     padding: 20px 0;
+    text-align: center;
+    font-size: 50px;
 }
 
 p {
@@ -187,4 +193,7 @@ section{
     font-size: 14px;
     font-weight: bold;
     color: black;
+}
+footer{
+    align-items: end;
 }
