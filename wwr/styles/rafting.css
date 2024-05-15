@@ -194,6 +194,29 @@ section{
     font-weight: bold;
     color: black;
 }
-footer{
-    align-items: end;
+footer {
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    background-color: var(--accent1-color);
+    text-align: center;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.footer-nav a:hover {
+    color: var(--nav-hover-link-color);
+    border-radius: 6px;
 }
