@@ -64,13 +64,14 @@ textarea{
 select{
     width: 450px;
 }
-label[for="margin"] {
+
+label[for="q4"]{
     display: block;
     text-align: center;
-    align-items: center;
+    margin-bottom: 1rem;
 }
-
 .label-container {
+    
     display: inline-block; 
     background-color: black;
     color: white;
