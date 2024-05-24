@@ -241,6 +241,11 @@ footer {
 form {
     background-color: #f4f4f4;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
 }
 
 label {
@@ -268,6 +273,7 @@ button[type="submit"] {
     cursor: pointer;
     font-weight: bold;
     font-size: 25px;
+    
 }
 
 .map {
