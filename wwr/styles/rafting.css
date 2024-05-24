@@ -228,3 +228,53 @@ footer {
     color: var(--nav-hover-link-color);
     border-radius: 6px;
 }
+
+
+.column1 {
+    grid-column: 1 / 2;
+}
+
+.column2 {
+    grid-column: 2 / 3;
+}
+
+form {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.map {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.map iframe {
+    max-width: 100%; /* Ensure the map does not exceed its container's width */
+}
+
