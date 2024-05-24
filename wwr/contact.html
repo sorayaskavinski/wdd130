@@ -1,90 +1,98 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="styles/rafting.css">
-        <meta name="contact us" content="This page is designed for people who want to contact us, we'll be getting in touch with them.">
-        <meta name="author" content="Soraya Skavinski">
-        <title>Soraya Skavinski | WDD 130 | Canoon Rafting | Contact Us</title>
-    </head>
-    <body>
-        <header>
-            <div class="nav-container">
-                <img src="images/logo.png" alt="logo" width="150">
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About us</a>
-                    <a href="trips.html">Trips</a>
-                    <a href="contact.html">Contact us</a>
-                </nav>
-            </div>            
-        </header>
-        <main>
-            <div class="grid" > 
-                <div class="column1">       
-                    <h1>Contact Us</h1>
-                    <p>Canoon Rafting</p>
-                    <p>Phone: 999-999-9999</p>
-                    <p>Email: <a href="mailto:">canoon</a></p>
-                </div>
-                <form>
-                    <fieldset>
-                        <div class="column2">  
-                            <h2> Send Us a Message</h2>
-                            <label for="fullname">Full Name:</label>
-                            <input type="text" id="fullname" name="fullname">
-                            <label for="useremail">Email:</label>
-                            <input type="email" id="useremail" name="useremail">
-                            <label for="browser">Choose the purpose of your contact from the list below:</label>
-                            <select id="browser" name="browser">
-                                <option value="" selected disabled>Choose One...</option>
-                                <option value="general">General Inquiry</option>
-                                <option value="reservation">Reservation Question</option>
-                                <option value="website">Website Suggestion</option>
-                            </select>
-                                <textarea id="feedback" name="feedback" rows="4" placeholder=" "></textarea>
-                            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                            <input type="checkbox" id="subscribe" name="subscribe">
-                        </div>
-                    </fieldset>
-                </form>
-            <button type="submit">Submit</button>
-            </div>     
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1302.17542133498!2d-46.468052118707185!3d-22.612431275361036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1716486024805!5m2!1sen!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="contact" content="This page is designed for people who want to contact us, we'll be getting in touch with them.">
+    <meta name="author" content="Soraya Skavinski">
+    <title>Soraya Skavinski | WDD 130 | Canoon Rafting | Contact Us</title>
+</head>
+<body>
+<header>
+    <div class="nav-container">
+        <img src="images/logo.png" alt="logo" width="150">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact us</a>
+        </nav>
+    </div>            
+</header>
+<main>
+    <div class="grid"> 
+        <div class="column1">       
+            <h1>Contact Us</h1>
+            <p>Canoon Rafting</p>
+            <p>Phone: 999-999-9999</p>
+            <p>Email: <a href="mailto:">canoon</a></p>
         </div>
-        <section>                
-            <h2>Canoon Family</h2>
-                <div class="row">
-                    <figure class="image-figure">
-                        <img src="images/team-member.jpg" alt="team-member" class="image">
-                        <figcaption class="image-caption">Our newest members</figcaption>
-                    </figure>
-                    <figure class="image-figure">
-                        <img src="images/team-members.jpg" alt="team-members">
-                            <figcaption class="image-caption">Our family</figcaption>
-                    </figure>
-                    <figure class="image-figure">
-                        <img src="images/office-team.jpg" alt="office-team">
-                            <figcaption class="image-caption">We have an office team working for you</figcaption>
-                    </figure>
+        <form>
+            <fieldset>
+                <div class="column2">  
+                    <h2>Send Us a Message</h2>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                    <label for="browser">Choose the purpose of your contact from the list below:</label>
+                    <select id="browser" name="browser">
+                        <option value="" selected disabled>Choose One...</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="reservation">Reservation Question</option>
+                        <option value="website">Website Suggestion</option>
+                    </select>
+                    <label for="feedback">Message:</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder=" "></textarea>
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="contact-method">Preferred method of contact:</label><br>
+                    <input type="radio" id="contact-email" name="contact-method" value="email">
+                    <label for="contact-email">Email</label><br>
+                    <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                    <label for="contact-phone">Phone</label><br>
+                    <input type="radio" id="contact-any" name="contact-method" value="any" checked>
+                    <label for="contact-any">Any</label><br>
                 </div>
-        </section>       
-        </main>
-        <footer>
-            <p class="footer-p">©2024 ✨ Canoon Rafting ✨ Soraya Skavinski ✨ WDD130</p>
-            <nav class="footer-nav">
-                <a href="https://www.facebook.com/">
-                    <img src="images/facebook.svg" alt= "Facebook">
-                </a>
-                <a href="https://www.instagram.com/">
-                    <img src="images/instagram.svg" alt="Instagram">
-                </a>
-                <a href="https://twitter.com/">
-                    <img src="images/twitter.svg" alt="Twitter">
-                </a>
-            </nav>
-        </footer>
-    </body>
+            </fieldset>
+        </form>
+        <button type="submit">Submit Your Request</button>
+    </div>     
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1302.17542133498!2d-46.468052118707185!3d-22.612431275361036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1716486024805!5m2!1sen!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <section>                
+        <h2>Canoon Family</h2>
+        <div class="row">
+            <figure class="image-figure">
+                <img src="images/team-member.jpg" alt="team-member" class="image">
+                <figcaption class="image-caption">Our newest members</figcaption>
+            </figure>
+            <figure class="image-figure">
+                <img src="images/team-members.jpg" alt="team-members">
+                <figcaption class="image-caption">Our family</figcaption>
+            </figure>
+            <figure class="image-figure">
+                <img src="images/office-team.jpg" alt="office-team">
+                <figcaption class="image-caption">We have an office team working for you</figcaption>
+            </figure>
+        </div>
+    </section>       
+</main>
+<footer>
+    <p class="footer-p">©2024 ✨ Canoon Rafting ✨ Soraya Skavinski ✨ WDD130</p>
+    <nav class="footer-nav">
+        <a href="https://www.facebook.com/">
+            <img src="images/facebook.svg" alt= "Facebook">
+        </a>
+        <a href="https://www.instagram.com/">
+            <img src="images/instagram.svg" alt="Instagram">
+        </a>
+        <a href="https://twitter.com/">
+            <img src="images/twitter.svg" alt="Twitter">
+        </a>
+    </nav>
+</footer>
+</body>
 </html>
